@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+   
+   <form action="calculo.php" method="get">
+    <fieldset>
+        <legend>Campos Principais</legend>
+        <label for="n1">Numero1</label>
+        <input type="number" name="n1" id="n1">
+        <br>
+        <!--text-->
+        <label for="n2">Nome</label>
+        <input type="text" name="n2" id="n2" maxlength="5" size="10">
+        <br>
+        <!--Password-->
+        <label for="">Senha</label>
+        <input type="password" name="" id="">
+        <br>
+        <!--Email-->
+        <label for="">Email</label>
+        <input type="email" name="email" id="email">
+    </fieldset>
+    <br>
+    <!--Rãdio-->
+    <label for="">Sexo</label>
+    <input type="radio" name="opcao" id="m"><label for="">Masculino</label>
+    <input type="radio" name="opcao" id="f"><label for="">Feminino</label>
+    <input type="radio" name="opcao" id="o"><label for="">Outros</label>
+    <br>
+    <!--CheckBox-->
+    <label for="">Assunto de interesse</label>
+    <input type="checkbox" name="op1" id="op1"><label for="">HTML</label>
+    <input type="checkbox" name="op2" id="op2"><label for="">CSS</label>
+    <input type="checkbox" name="op3" id="op3"><label for="">JS</label>
+    <br>
+    <!--date-->
+    <label for="">Escolha um data</label>
+    <input type="date" name="data" id="data">
+    <br>
+    <!--color-->
+    <label for="">Escolha um data</label>
+    <input type="color" name="cor" id="cor"> 
+    <br>
+    <label for="">telefone</label>
+    <input type="tel" name="tel" id="tel" placeholder="digite o telefone"> 
+    <br>
+    <label for="">Procurar</label>
+    <input type="file" name="" id=""> 
+    <br>
+    <!--select-->
+    <label for="">Escolha estado</label>
+    <select name="estado" id="estado">
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+        <option value="MG">MG</option>
+
+    </select>
+    <br>
+    <button type="submit">Enviar</button>
+   </form>
+
+</body>
+</html>
